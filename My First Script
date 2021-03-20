@@ -1,0 +1,7 @@
+script.Parent.ClickDetector.MouseClick:Connect(function(player)
+    if player then
+       player.Parent:FindFirstChild("HumanoidRootPart").Position = script.Parent.Parent.[your part name].Position
+    end
+end)
+
+-- lua coding for roblox studio
